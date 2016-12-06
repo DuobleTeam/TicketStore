@@ -3,3 +3,6 @@
     font-size:0.8em;
     color: #555;
 }
+.footer-view a {
+    margin-left: 5px;
+}
