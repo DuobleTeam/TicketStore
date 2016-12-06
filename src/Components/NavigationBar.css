@@ -11,6 +11,7 @@
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
+    color:white;
 }
 .navigation-bar a:hover {
     background: #33d6ff;
