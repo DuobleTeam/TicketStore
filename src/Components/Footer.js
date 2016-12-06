@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer-view">
-                (c) 2016 - ReactJS Tikets Store by Double Team
+                (c) 2016 - ReactJS Tickets Store by Double Team
             </div>
 
         )

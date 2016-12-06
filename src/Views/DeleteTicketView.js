@@ -36,6 +36,9 @@ export default class DeleteTicketView extends Component {
                            ref={e => this.quantityField = e}/>
                 </label>
                 <div>
+                    <p></p>
+                </div>
+                <div>
                     <input type="submit" value="Delete" />
                 </div>
             </form>

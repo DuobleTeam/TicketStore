@@ -31,6 +31,9 @@ export default class CreateTicketView extends Component {
                            ref={e => this.quantityField = e}/>
                 </label>
                 <div>
+                    <p></p>
+                </div>
+                <div>
                     <input type="submit" value="Add your ticket"/>
                 </div>
             </form>

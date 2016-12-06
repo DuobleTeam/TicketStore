@@ -11,6 +11,7 @@ export default class NavigationBar extends Component {
                     <a href="#" onClick={this.props.loginClicked}>Login</a>
                     <a href="#" onClick={this.props.registerClicked}>Register</a>
                 </div>
+
             );
         else
             return (
@@ -20,7 +21,7 @@ export default class NavigationBar extends Component {
                     <a href="#" onClick={this.props.addTicketClicked}>Add Ticket</a>
                     <a href="#" onClick={this.props.logoutClicked}>Logout</a>
                     <span className="loggedInUser">
-                        Welcome, {this.props.username}!
+                        Welcome, {this.props.username} !
                     </span>
                 </div>
             );

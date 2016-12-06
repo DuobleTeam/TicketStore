@@ -16,6 +16,9 @@ export default class LoginView extends Component {
                            ref={e => this.passwordField = e} />
                 </label>
                 <div>
+                    <p></p>
+                </div>
+                <div>
                     <input type="submit" value="Login" />
                 </div>
             </form>

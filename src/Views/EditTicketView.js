@@ -4,7 +4,7 @@ export default class EditBookView extends Component {
     render() {
         return (
             <form className="edit-book-form" onSubmit={this.submitForm.bind(this)}>
-                <h1>Edit Book</h1>
+                <h1>Edit Ticket</h1>
                 <label>
                     <div>Title:</div>
                     <input type="text" required
@@ -35,6 +35,9 @@ export default class EditBookView extends Component {
                            defaultValue={this.props.Quantity}
                            ref={e => this.quantityField = e}/>
                 </label>
+                <div>
+                    <p></p>
+                </div>
                 <div>
                     <input type="submit" value="Edit" />
                 </div>

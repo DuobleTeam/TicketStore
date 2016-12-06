@@ -16,6 +16,9 @@ export default class RegisterView extends Component {
                            ref={e => this.passwordField = e} />
                 </label>
                 <div>
+                    <p></p>
+                </div>
+                <div>
                     <input type="submit" value="Register" />
                 </div>
             </form>

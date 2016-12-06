@@ -16,6 +16,7 @@ export default function ListTicketsView(props) {
         if(ticket._acl.creator === sessionStorage.getItem("userId"))
             return <td>
                 <button onClick={props.onedit.bind(this, ticket._id)}>Edit</button>
+                <div id="divider"></div>
                 <button onClick={props.ondelete.bind(this, ticket._id)}>Delete</button>
             </td>
         else return <td>-</td>
@@ -32,6 +33,7 @@ export default function ListTicketsView(props) {
                     <th>Date</th>
                     <th>Contacts</th>
                     <th>Quantity</th>
+                    <th>Actions</th>
                 </tr>
                 </thead>
                 <tbody>

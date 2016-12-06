@@ -65,11 +65,10 @@ export default class App extends Component {
         });
         // Attach a global AJAX error handler
         $(document).ajaxError(this.handleAjaxError.bind(this));
-
         this.showHomeView();
     }
 
-    handleAjaxError(event, response) {
+    handleAjaxError(response) {
         let errorMsg = JSON.stringify(response);
         if (response.readyState === 0)
             errorMsg = "Cannot connect due to network error.";
@@ -152,7 +151,6 @@ export default class App extends Component {
                     tickets={tickets}
                     onedit={this.loadTicketForEdit.bind(this)}
                     ondelete={this.loadTicketForDelete.bind(this)}
-
                 />);
         }
     }
