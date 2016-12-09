@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import logo from './logo.svg';
+
 
 
 import NavigationBar from './Components/NavigationBar';
@@ -43,7 +43,7 @@ export default class App extends Component {
                     <div id="infoBox">Info msg</div>
                     <div id="errorBox">Error msg</div>
                     <div className="App-header">
-                        <img src={logo} className="App-logo" alt="logo"/>
+
                     </div>
                 </header>
                 <div id="main">

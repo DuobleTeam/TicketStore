@@ -8,10 +8,11 @@
 }
 
 .App-header {
-    background-color: #222;
-    height: 150px;
+    background-color: #290739;
+    height: 100px;
     padding: 20px;
     color: white;
+
 }
 
 .App-intro {
@@ -28,7 +29,7 @@
 }
 
 body {
-    background: #36465d;
+    background: #006f20;
 }
 
 #infoBox, #errorBox, #loadingBox {
@@ -56,6 +57,7 @@ body {
 
 #main {
     margin: 0 10px 20px 10px;
+    color: #f1f6f8;
 }
 
 table {
@@ -114,7 +116,8 @@ button, input[type="submit"] {
     border-radius: 10px;
     text-align: center;
 }
-button{
+#main{
+
 }
 
 button:hover {
